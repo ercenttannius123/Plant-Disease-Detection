@@ -250,10 +250,6 @@ pip install "numpy<2"
 - Validate file uploads strictly
 - Deploy behind reverse proxy (nginx/Apache)
 
-## 📝 License
-
-MIT License - See [LICENSE](LICENSE) file for details
-
 
 ## 🙏 Acknowledgments
 
