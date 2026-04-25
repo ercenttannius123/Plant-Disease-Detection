@@ -254,9 +254,6 @@ pip install "numpy<2"
 
 MIT License - See [LICENSE](LICENSE) file for details
 
-## 👤 Author
-
-Created for Computer Vision course - Semester 4 (Intelligent System)
 
 ## 🙏 Acknowledgments
 
@@ -264,12 +261,6 @@ Created for Computer Vision course - Semester 4 (Intelligent System)
 - **Model**: EfficientNet-B0 from timm library
 - **Framework**: FastAPI, React, PyTorch
 
-## 📞 Support
-
-For issues or questions:
-1. Check existing GitHub issues
-2. Create new issue with detailed description
-3. Include error messages and logs
 
 ## 🚀 Future Enhancements
 
