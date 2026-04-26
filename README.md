@@ -272,7 +272,7 @@ pip install "numpy<2"
 
 ## References 
 
-https://www.kaggle.com/code/arunsworkspace/plant-disease-cnns 
+Model implementation is adapted from a Kaggle notebook, with modifications in preprocessing and training pipeline
 
 **Happy Disease Detection! 🌿🤖**
 
