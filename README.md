@@ -270,6 +270,10 @@ pip install "numpy<2"
 
 ---
 
+## References 
+
+https://www.kaggle.com/code/arunsworkspace/plant-disease-cnns 
+
 **Happy Disease Detection! 🌿🤖**
 
 Made with ❤️ for Plant Health
