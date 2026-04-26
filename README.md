@@ -141,7 +141,6 @@ plant-disease-detection/
 │
 ├── .gitignore
 ├── README.md
-└── LICENSE
 ```
 
 ## 🔌 API Endpoints
