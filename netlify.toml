@@ -1,6 +1,7 @@
 [build]
   command = "npm run build"
   publish = "dist"
+  ignore = "git diff --quiet HEAD^ HEAD -- requirements.txt model.py app.py run_server.py"
 
 [build.environment]
   NODE_VERSION = "18"
