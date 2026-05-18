@@ -1,46 +1,32 @@
-# Frontend
-node_modules/
-dist/
-.DS_Store
-*.local
-.env.local
-.env.*.local
-*.pth
+# Project structure
+# Track only frontend and backend folders
+/*
+!/frontend
+!/backend
+!.gitignore
+!README.md
+!.git
 
-# Backend (tidak push ke GitHub)
-requirements.txt
-app.py
-model.py
-run_server.py
-class_names.json
-efficientnet_plant_best.pth
-kaggle.json
-Procfile
+# Frontend (in frontend folder)
+frontend/node_modules/
+frontend/dist/
+frontend/.DS_Store
+frontend/*.local
+frontend/.env.local
 
-# Python
-__pycache__/
-*.py[cod]
-*$py.class
-*.so
-.Python
-env/
-venv/
-ENV/
-build/
-develop-eggs/
-dist/
-downloads/
-eggs/
-.eggs/
-lib/
-lib64/
-parts/
-sdist/
-var/
-wheels/
-*.egg-info/
-.installed.cfg
-*.egg
+# Backend (in backend folder)
+backend/__pycache__/
+backend/*.py[cod]
+backend/*.so
+backend/.Python
+backend/env/
+backend/venv/
+backend/ENV/
+backend/*.egg-info/
+backend/*.egg
+backend/.env
+backend/*.pth
+backend/kaggle.json
 
 # IDE
 .vscode/
@@ -51,5 +37,5 @@ wheels/
 .DS_Store
 
 # OS
-.DS_Store
 Thumbs.db
+
