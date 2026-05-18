@@ -3,6 +3,7 @@ from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import JSONResponse
 from PIL import Image
 import io
+import os
 
 from model import predict
 
@@ -12,12 +13,25 @@ app = FastAPI(
     version="1.0.0"
 )
 
+# CORS configuration untuk development dan production
+allowed_origins = [
+    "http://localhost:5173",
+    "http://localhost:3000",
+    "http://127.0.0.1:5173",
+]
 
+# Tambah production URL jika ada
+netlify_url = os.environ.get("NETLIFY_URL")
+if netlify_url:
+    allowed_origins.append(netlify_url)
 
-# CORS - allow semua origin (bisa dibatasi nanti)
+# Allow wildcard di development, strict di production
+if os.environ.get("ENVIRONMENT") != "production":
+    allowed_origins.append("*")
+
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["http://localhost:5173", "http://localhost:3000", "*"],
+    allow_origins=allowed_origins,
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
