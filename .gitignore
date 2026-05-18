@@ -7,6 +7,16 @@ dist/
 .env.*.local
 *.pth
 
+# Backend (tidak push ke GitHub)
+requirements.txt
+app.py
+model.py
+run_server.py
+class_names.json
+efficientnet_plant_best.pth
+kaggle.json
+Procfile
+
 # Python
 __pycache__/
 *.py[cod]
