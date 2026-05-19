@@ -34,18 +34,6 @@ transform = transforms.Compose([
 def predict(image: Image.Image) -> dict:
     image        = image.convert('RGB')
 
-    # ===== DEBUG (hapus setelah selesai debug) =====
-    print(f"[DEBUG] Image size  : {image.size}")
-    print(f"[DEBUG] Image mode  : {image.mode}")
-    # ===============================================
-
-    input_tensor = transform(image).unsqueeze(0).to(DEVICE)
-
-    # ===== DEBUG (hapus setelah selesai debug) =====
-    print(f"[DEBUG] Tensor shape   : {input_tensor.shape}")
-    print(f"[DEBUG] Tensor min/max : {input_tensor.min():.3f} / {input_tensor.max():.3f}")
-    # ===============================================
-
     with torch.no_grad():
         outputs       = model(input_tensor)
         probabilities = F.softmax(outputs, dim=1)
