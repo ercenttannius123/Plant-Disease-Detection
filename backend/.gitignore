@@ -12,5 +12,4 @@ ENV/
 .env
 .vscode/
 .idea/
-*.pth
 kaggle.json
