@@ -33,7 +33,7 @@ transform = transforms.Compose([
 
 def predict(image: Image.Image) -> dict:
     image        = image.convert('RGB')
-
+    input_tensor = transform(image).unsqueeze(0).to(DEVICE)
     with torch.no_grad():
         outputs       = model(input_tensor)
         probabilities = F.softmax(outputs, dim=1)
