@@ -1,0 +1,41 @@
+# Project structure
+# Track only frontend and backend folders
+/*
+!/frontend
+!/backend
+!.gitignore
+!README.md
+!.git
+
+# Frontend (in frontend folder)
+frontend/node_modules/
+frontend/dist/
+frontend/.DS_Store
+frontend/*.local
+frontend/.env.local
+
+# Backend (in backend folder)
+backend/__pycache__/
+backend/*.py[cod]
+backend/*.so
+backend/.Python
+backend/env/
+backend/venv/
+backend/ENV/
+backend/*.egg-info/
+backend/*.egg
+backend/.env
+backend/*.pth
+backend/kaggle.json
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# OS
+Thumbs.db
+
