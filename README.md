@@ -257,6 +257,16 @@ pip install "numpy<2"
 - **Framework**: FastAPI, React, PyTorch
 
 
+## 🤝 Contributing
+
+| Nama | Peran |
+|------|-------|
+| **Ercent Tannius** | Train AI, Frontend, Laporan Bab 1-2  |
+| **Jos Hwen Sim** | Backend, Frontend, Abstract,Laporan Bab 5 |
+| **Winson Jonathan** | Ide Project, Laporan Bab 4 (Implementasi & Hasil) |
+| **Yohanes Kevin Lie** | Integrasi Frontend + Backend + Model,Daftar Pustaka, dan Laporan bab 3 |
+
+
 ## 🚀 Future Enhancements
 
 - [ ] Mobile app (React Native)
