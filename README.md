@@ -267,17 +267,6 @@ pip install "numpy<2"
 | **Yohanes Kevin Lie** | Integrasi Frontend + Backend + Model,Daftar Pustaka, dan Laporan bab 3 |
 
 
-## 🚀 Future Enhancements
-
-- [ ] Mobile app (React Native)
-- [ ] Real-time camera analysis
-- [ ] Multi-image batch processing
-- [ ] Model quantization for mobile
-- [ ] User authentication & history
-- [ ] Advanced analytics dashboard
-- [ ] Multi-language support
-- [ ] Treatment recommendations
-
 ---
 
 ## References 
